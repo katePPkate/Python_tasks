@@ -6,6 +6,8 @@ class Family:
 
     def display_info(self):
         print(f"Name: {self.first_name} {self.last_name} Age: {self.age}")
+    '''def __del__(self):
+        print("Удален человек с именем", self.first_name)'''
 
 sister = Family("Anya","Valova", 16)
 mother = Family("Zhenya", "Valova", 40)
